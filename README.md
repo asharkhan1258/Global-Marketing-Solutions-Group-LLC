@@ -1,1 +1,1 @@
-# Global-Marketing-Solutions-Group-LLC
+# internetglobal-inc

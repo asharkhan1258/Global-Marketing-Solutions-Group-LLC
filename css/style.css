@@ -1,0 +1,599 @@
+.top-bar {
+    background-color: #083836;
+    color: white;
+    font-size: 0.9rem;
+  }
+
+  .navbar-custom {
+    background-color: #0e0e10;
+  }
+
+  .navbar-nav .nav-link {
+    color: white !important;
+    margin: 0 10px;
+  }
+
+  .btn-get-started {
+    background-color: #1b6965;
+    color: white;
+    border-radius: 20px;
+    padding: 8px 20px;
+  }
+
+  .btn-get-started:hover {
+    background-color: #15524f;
+  }
+
+  .logo-text {
+    color: white;
+    font-weight: bold;
+  }
+
+  
+  .hero-section {
+    background: linear-gradient(to right, #1d6639, #95c11f);
+    color: white;
+    padding: 60px 0;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .hero-section .bg-pattern {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    background: url('/image/6379115-02-01.png'); /* or your graph bg */
+    opacity: 0.2;
+    z-index: 0;
+  }
+
+  .hero-content {
+    z-index: 1;
+    position: relative;
+  }
+
+  .hero-section h1 {
+    font-weight: 700;
+    font-size: 3rem;
+  }
+
+  .hero-section p {
+    font-style: italic;
+    font-size: 1.2rem;
+    margin: 20px 0;
+  }
+
+  .hero-section .btn {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 10px;
+  }
+  .hero-section .btn:hover {
+    background-color: white;
+    border: 1px solid white;
+    color: green;
+    padding: 10px 25px;
+    border-radius: 10px;
+  }
+  .hero-image {
+    max-width: 90%;
+  }
+
+  .benefit-card {
+    background: linear-gradient(90deg, #577636, #2c573e, #114d47);
+    padding: 50px 20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+  }
+  .benefit-box {
+    display: flex;  
+    gap: 20px;
+    background-color: transparent;
+    width: 28%;
+    
+    padding: 20px;
+  }
+
+  .icon-circle {
+    background-color: #a2ad49;
+    padding: 0px 18px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  .icon-circle i {
+    color: white;
+    font-size: 20px;
+  }
+  .benefit-title {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .benefit-text {
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+  
+  .services-section {
+    padding: 60px 20px;
+    overflow-x: hidden;
+  }
+
+  .services-image {
+    width: 100%;
+    border-radius: 25px;
+    height: 500px;
+    object-fit: cover;
+  }
+
+  .subtitle {
+    color: #2b7c6e;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 18px;
+  }
+
+  .title {
+    font-weight: bold;
+    font-size: 30px;
+    color: #000000;
+    margin-top: 10px;
+  }
+
+  .description {
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+  }
+
+  .progress-label {
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+
+  .progress {
+    height: 12px;
+    background-color: #0f6c60;
+    /* border-radius: 8px; */
+    overflow: visible;
+    position: relative;
+    margin-bottom: 30px;
+  }
+  
+  .progress-bar {
+    position: relative;
+    /* border-radius: 8px; */
+    background-color: #ffe600;
+  }
+
+  .progress-percent {
+    position: absolute;
+    right: -20px;
+    top: -18px;
+    background-color: #0f6c60;
+    color: white;
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 4px 8px;
+    border-radius: 50px;
+  }
+
+  .btn-discover {
+    background-color: #0f6c60;
+    color: white;
+    font-weight: 500;
+    padding: 12px 24px;
+    border-radius: 30px;
+    font-size: 15px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+  }
+
+  .btn-discover:hover {
+    background-color: #0a5147;
+    color: white;
+  }
+  
+  .why-section {
+    padding: 60px 20px;
+    background-color: #1865601A;
+    text-align: center;
+  }
+
+  .why-subtitle {
+    color: #2b7c6e;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+
+  .why-title {
+    font-weight: bold;
+    font-size: 40px;
+    color: #0b0b0b;
+    margin: 10px 0;
+  }
+
+  .why-description {
+    font-size: 18px;
+    color: #6c757d;
+    max-width: 95%;
+    margin: 0 auto 40px auto;
+  }
+
+  .feature-box {
+    background-color: #ffffff;
+    padding: 40px 35px;
+    /* border-radius: 8px; */
+    transition: background-color 0.3s ease;
+    text-align: left;
+    height: 100%;
+  }
+
+  .feature-box.green-bg {
+    background-color: #0f6c60;
+    color: white;
+  }
+
+  .feature-box.green-bg:hover {
+    background-color: #0a5147;
+  }
+
+  .feature-box h5 {
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+
+  .feature-box p {
+    font-size: 17px;
+    margin: 0;
+  }
+
+  .icon-box {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+
+  .feature-box:not(.green-bg) h5 {
+    color: #0f6c60;
+  }
+
+  .feature-box:not(.green-bg):hover {
+    background-color: #f2f2f2;
+  }
+
+  .industry-box {
+    border: 2px solid #0c6151;
+    border-radius: 12px;
+    padding: 20px;
+    height: 100%;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .industry-box p {
+  font-size: 18px;
+  }
+  .industry-box:hover {
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  }
+  .industry-icon {
+    font-size: 30px;
+    color: #0c6151;
+    width: 80px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #00735c;
+    margin-bottom: 15px;
+  }
+  .industry-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  .section-title {
+    color: #0c6151;
+    font-weight: 600;
+    font-size: 18px;
+  }
+  .main-heading {
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  
+  .section-wrapper {
+    padding: 80px 0;
+    background-color: #083836;
+
+  }
+
+  .title-small {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #cfcfcf;
+  }
+
+  .main-heading {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1.2;
+  }
+
+  .description-1 {
+    font-size: 18px;
+    margin-top: 10px;
+    color: white;
+  }
+
+  .custom-btn {
+    background-color: #126c5f;
+    color: white;
+    border-radius: 999px;
+    padding: 12px 25px;
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+  }
+
+  .custom-btn:hover {
+    background-color: #0f574c;
+  }
+
+  .blob-image {
+    width: 100%;
+    height: auto;
+   
+  }
+
+  .image-wrapper {
+    max-width: 500px;
+  }
+
+  .main-title {
+    font-size: 37px;
+    font-weight: bold;
+    line-height: 1.3;
+  }
+
+  .description {
+    margin-top: 20px;
+    color: #dcdcdc;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  .subscribe-box {
+    margin-top: 30px;
+    display: flex;
+    
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .input-div{
+    width: 75%;
+  }
+  .subscribe-box input {
+    border-radius: 25px;
+    padding: 10px 20px;
+    border: none;
+    /* flex: 1 1 auto; */
+  }
+
+  .subscribe-btn {
+    background-color: #126c5f;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 25px;
+    font-weight: 600;
+  }
+
+  .subscribe-btn:hover {
+    background-color: #0f574c;
+  }
+
+  .image-section img {
+    max-width: 100%;
+    height: auto;
+  }
+
+ 
+  .strategy-section {
+    padding: 80px 0;
+    text-align: center;
+  }
+
+  .strategy-section h5 {
+    color: #00735c;
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+
+  .strategy-section h2 {
+    font-size: 46px;
+    font-weight: 800;
+    margin-bottom: 20px;
+  }
+
+  .strategy-section p.lead {
+    max-width: 80%;
+    margin: auto;
+    color: #6c757d;
+  }
+
+  .strategy-box {
+    border-right: 1px solid #ddd;
+    padding: 30px 20px;
+  }
+
+  .strategy-box:last-child {
+    border-right: none;
+  }
+
+  .strategy-number {
+    font-size: 40px;
+    font-weight: bold;
+    color: #00735c;
+    margin-bottom: 10px;
+  }
+
+  .strategy-title {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+
+  .strategy-desc {
+    font-size: 17px;
+    color: #555;
+  }
+
+  
+  .faq-section {
+    padding: 80px 15px;
+    background-color: #f8f9fa;
+  }
+
+  .faq-section h2 {
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 40px;
+  }
+
+  .accordion-button {
+    font-weight: 700;
+  }
+
+  .accordion-button:not(.collapsed) {
+    color: #00735c;
+    background-color: #e6f2f0;
+    box-shadow: none;
+  }
+
+  .accordion-button::after {
+    background-image: url('https://img.icons8.com/ios-glyphs/30/000000/expand-arrow.png');
+    transition: transform 0.3s ease;
+  }
+
+  .accordion-button:not(.collapsed)::after {
+    transform: rotate(180deg);
+    background-image: url('https://img.icons8.com/ios-glyphs/30/00735c/collapse-arrow.png');
+  }
+
+  .accordion-body {
+    color: #555;
+  }
+  @media (max-width: 992px) {
+    .benefit-box {
+      display: flex;  
+      gap: 20px;
+      background-color: transparent;
+      width: 50%;
+      
+      padding: 20px;
+    }
+    
+  .strategy-section h2 {
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 20px;
+  }
+  }
+
+  @media (max-width: 768px) {
+    .input-div{
+      width: 100%;
+    }
+    .strategy-box {
+      border-right: none;
+      border-bottom: 1px solid #ddd;
+    }
+    .title {
+      font-weight: bold;
+      font-size: 25px;
+      color: #000000;
+      margin-top: 10px;
+    }
+    .why-title {
+      font-weight: bold;
+      font-size: 25px;
+      color: #0b0b0b;
+      margin: 10px 0;
+    }
+    .services-image {
+      width: 100%;
+      border-radius: 25px;
+      height: auto;
+      object-fit: cover;
+    }
+    .hero-section {
+      text-align: center;
+      padding: 30px 0;
+     
+    }
+    .hero-section p {
+      font-style: italic;
+      font-size: 18px;
+      margin: 20px 0;
+    }
+    .benefit-box {
+      display: flex;  
+      gap: 20px;
+      background-color: transparent;
+      width: 100%;
+      
+      padding: 20px;
+    }
+    .strategy-box:last-child {
+      border-bottom: none;
+    }
+    
+  .strategy-section h2 {
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 20px;
+  }
+    .main-heading {
+      font-size: 28px;
+    
+    }
+    .image-wrapper {
+      margin-top: 40px;
+    }
+    .hero-section h1 {
+      font-size: 1.75rem;
+    }
+    .main-title {
+      font-size: 24px;
+    }
+    .subscribe-box {
+      flex-direction: column;
+    }
+  }
+ 
+
